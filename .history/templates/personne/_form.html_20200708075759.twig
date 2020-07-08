@@ -1,0 +1,5 @@
+{% form_theme formPerssone 'bootstrap_4_layout.html.twig' %}
+{{ form_start(formPerssone) }}
+{{ form_widget(formPerssone) }}
+<button class="btn">{{ button_label|default('Save') }}</button>
+{{ form_end(formPerssone) }}
